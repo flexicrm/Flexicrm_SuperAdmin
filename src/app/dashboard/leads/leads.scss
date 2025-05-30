@@ -1,0 +1,81 @@
+// .lay-solute {
+//   position: absolute;
+//   // position: fixed;
+//   right: 0;
+//   // background: white;
+//   // height: 80vh;
+//   top: 0;
+//   margin-top: 4.55rem;
+//   margin-left: 4rem;
+//   z-index: 9999;
+// }
+// .input-dropdown {
+//   font-family: var(--font-family);
+//   font-feature-settings: var(--font-feature-settings, normal);
+//   font-size: 1rem;
+//   color: #495057;
+//   background: #ffffff;
+//   padding: 0.5rem 0.5rem;
+//   border: 1px solid #ced4da;
+//   transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+//     box-shadow 0.2s;
+//   // appearance: none;
+//   border-radius: 3px;
+//   outline-color: transparent;
+// }
+// .input-dropdown2 {
+//   font-family: var(--font-family);
+//   font-feature-settings: var(--font-feature-settings, normal);
+//   font-size: 1rem;
+//   color: #495057;
+//   // background: #ffffff;
+//   padding: 0.5rem 0.5rem;
+//   border: 1px solid #ced4da;
+//   transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+//     box-shadow 0.2s;
+//   // appearance: none;
+//   border-radius: 3px;
+//   outline-color: transparent;
+// }
+
+// .leads-layout {
+//   // display: flex;
+//   margin-left: auto;
+//   align-items: center;
+//   // justify-content: center;
+//   text-align: center;
+//   // padding: 2rem;
+//   height: 81vh;
+// }
+
+.container {
+  margin: 20px;
+}
+ label,h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.form-layout-leads {
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.input-dropdown {
+  transition: border-color 0.2s;
+}
+
+.input-dropdown:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
