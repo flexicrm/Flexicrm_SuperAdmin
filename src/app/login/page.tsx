@@ -504,7 +504,7 @@ const LoginPage: React.FC = () => {
 		<Box
 			sx={{
 				minHeight: '100vh',
-				background: `linear-gradient(to right, ${theme.palette.primary.dark}, ${theme.palette.secondary.main})`,
+				// background: `linear-gradient(to right, ${theme.palette.primary.dark}, ${theme.palette.secondary.main})`,
 				display: 'flex',
 				alignItems: 'center',
 				justifyContent: 'center',
@@ -522,7 +522,7 @@ const LoginPage: React.FC = () => {
 				}}
 			>
 				<Box textAlign="center" mb={4}>
-					<Typography variant="h4" fontWeight="bold" color="primary">
+					<Typography variant="h4" fontWeight="bold">
 						FlexiCRM Admin
 					</Typography>
 					<Typography variant="subtitle1" color="textSecondary">
@@ -603,25 +603,25 @@ const LoginPage: React.FC = () => {
 							label="Remember me"
 							sx={{ color: theme.palette.text.secondary }}
 						/>
-						<Link href="#" variant="body2" underline="hover" color="secondary">
+						{/* <Link href="#" variant="body2" underline="hover" color="secondary">
 							Forgot password?
-						</Link>
+						</Link> */}
 					</Box>
 
 					<Button
 						fullWidth
 						type="submit"
 						variant="contained"
-						color="primary"
 						sx={{
 							mt: 3,
 							py: 1.5,
 							fontSize: '1rem',
+							background: '#000000',
 							fontWeight: 600,
 							borderRadius: 2,
 							textTransform: 'none',
 							'&:hover': {
-								backgroundColor: theme.palette.primary.dark,
+								backgroundColor: '#000000',
 							},
 						}}
 						disabled={loading}

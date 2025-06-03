@@ -960,6 +960,20 @@ export default function Plan() {
 											alignItems: 'center',
 										}}
 									>
+											{item.isTrialplan && (
+										<Chip
+											label="Trial"
+											size="small"
+											sx={{
+												position: 'absolute',
+												top: 5,
+												right: 8,
+												bgcolor: 'white',
+												color: (theme) => theme.palette.primary.main,
+												fontWeight: 'bold',
+											}}
+										/>
+									)}
 										<Typography
 											variant="h6"
 											fontWeight="bold"
@@ -975,20 +989,7 @@ export default function Plan() {
 											<MoreVert />
 										</IconButton>
 									</Box>
-									{item.isTrialplan && (
-										<Chip
-											label="Trial"
-											size="small"
-											sx={{
-												position: 'absolute',
-												top: 8,
-												right: 8,
-												bgcolor: 'white',
-												color: (theme) => theme.palette.primary.main,
-												fontWeight: 'bold',
-											}}
-										/>
-									)}
+								
 								</Box>
 								<CardContent>
 									<Typography
